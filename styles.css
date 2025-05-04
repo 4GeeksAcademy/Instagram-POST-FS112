@@ -1,3 +1,49 @@
 body{
     background-color: burlywood
 }
+.post-container{
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px;
+  }
+.user{
+    display: flex;
+    align-items: center;
+}
+.minilogo{
+    font-size: 30px;
+    margin: 10px;
+}
+.ubicacion{
+    margin: 0;
+    font-size: 12px;
+}
+.imagen{
+   display: inline-block;
+   width: 100%; 
+}
+.menu{
+    font-size: 20px;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 24px;
+}
+.iconos-izq{
+    margin-right: 10px;
+}
+.likes{
+    padding: 10px;
+}
+.pie-foto{
+    padding: 10px;
+}
