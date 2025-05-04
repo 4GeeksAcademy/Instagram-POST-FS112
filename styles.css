@@ -1,0 +1,59 @@
+body {
+    background-color: burlywood;
+}
+.post-container {
+    width: 400px;
+    border: 1px solid black;
+    margin: 40px auto;
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-izq {
+    display: flex;
+    align-items: center;
+}
+.minilogo {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.usuario {
+    display: flex;
+    flex-direction: column;
+}
+.user p {
+    margin: 0;
+}
+.ubicacion p {
+    margin: 0;
+    font-size: 12px;
+}
+.menu {
+    font-size: 25px;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 24px;
+}
+.iconos-izq i {
+    margin-right: 10px;
+}
+.likes {
+    padding: 10px;
+    font-size: 15px;
+}
+.pie-foto {
+    padding: 10px;
+    font-size: 15px;
+}
