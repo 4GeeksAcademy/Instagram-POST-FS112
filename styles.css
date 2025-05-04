@@ -1,49 +1,59 @@
-body{
-    background-color: burlywood
+body {
+    background-color: burlywood;
 }
-.post-container{
+.post-container {
     width: 400px;
     border: 1px solid black;
-    margin: auto;
+    margin: 40px auto;
     background-color: white;
 }
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     padding: 10px;
-  }
-.user{
+}
+.header-izq {
     display: flex;
     align-items: center;
 }
-.minilogo{
+.minilogo {
     font-size: 30px;
-    margin: 10px;
+    margin-right: 10px;
 }
-.ubicacion{
+.usuario {
+    display: flex;
+    flex-direction: column;
+}
+.user p {
+    margin: 0;
+}
+.ubicacion p {
     margin: 0;
     font-size: 12px;
 }
-.imagen{
-   display: inline-block;
-   width: 100%; 
+.menu {
+    font-size: 25px;
 }
-.menu{
-    font-size: 20px;
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
-.iconos{
+.iconos {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     font-size: 24px;
 }
-.iconos-izq{
+.iconos-izq i {
     margin-right: 10px;
 }
-.likes{
+.likes {
     padding: 10px;
+    font-size: 15px;
 }
-.pie-foto{
+.pie-foto {
     padding: 10px;
+    font-size: 15px;
 }
